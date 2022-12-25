@@ -1,0 +1,15 @@
+name: partiesexpansion
+version: 1.0.0
+main: xyz.he00741098.partiesexpansion.partiesexpansion
+api-version: 1.19
+author: he00741098
+depend: [Parties]
+softdepend: [Parties]
+commands:
+  partyPrefix:
+    description: refresh your Prefix
+    usage: /partyPrefix
+    aliases: [pp]
+    permission: partiesexpansion.command.partyPrefix
+    permission-message: "&cYou don't have permission to use this command."
+
